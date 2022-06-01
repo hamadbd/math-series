@@ -9,9 +9,3 @@ def insertShiftArray(array, number): # will take an array nad a number to insert
             index = math.ceil(index)
             index +=1
             array.insert(index, number)
-
-
-# just a quick try with basic numbers
-arr = [1,4,8,5]
-insertShiftArray(arr,4)
-print(arr)
